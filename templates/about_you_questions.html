@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question Page</title>
+        <style>
+            body {
+                background-color: pink;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>Hi {{user_name}}!</h1>
+        <p>Please anwser some fun questions about you!</p>
+        <form action = "/answers">
+            <label>Favorite food ingredient? 
+            <input type ='text' name ='ingredient'></label>
+            <br><label>Favorite city?
+            <input type = 'text' name = 'city'></label>
+            <br><label>Favorite season?</label>
+            <input type = 'text' name = 'season'></label>
+            <br><label>Fun fact about?</label>
+            <input type = 'text' name = 'fun'></label>
+            <br><input type="submit">
+        </form>
+    </body>
+
+
+</html>
